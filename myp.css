@@ -1,0 +1,22 @@
+    img{transition: 1s;}
+    img:hover {
+        transform: scale(1.1);
+
+      }
+      #p1,#p2,#p3{opacity: 1; transition: 0s; transform: translatey(-1000px); border: 1px solid #333; border-radius: 5px;
+    
+      }
+    
+      input[type="checkbox"]:checked ~#p1{opacity: 1;color: #333; margin-top: 20px;transform: translatey(0px);}
+      
+      input[type="checkbox"]:checked ~#p2{opacity: 1;color: #333; margin-top: 20px;transform: translatex(0px);}
+      
+      input[type="checkbox"]:checked ~#p3{opacity: 1;color: #333; margin-top: 20px;transform: translatex(0px);}
+      #btn{height: 40px;margin-top: 6px;}
+      input[type="checkbox"]{opacity: 0;}
+      
+      
+
+
+
+
